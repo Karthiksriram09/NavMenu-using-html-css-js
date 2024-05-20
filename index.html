@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navigation" id="navigation">
+    <div class="container">
+      <div class="logo">ResponsiveNavMenu</div>
+      <ul class="navigation-links">
+        <li>Home
+          <ul class="dropdown">
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">SEO</a></li>
+          </ul>
+        </li>
+        <li>About
+          <ul class="dropdown">
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Story</a></li>
+          </ul>
+        </li>
+        <li>Blog
+          <ul class="dropdown">
+            <li><a href="#">Latest Posts</a></li>
+            <li><a href="#">Popular Posts</a></li>
+          </ul>
+        </li>
+        <li>Services
+          <ul class="dropdown">
+            <li><a href="#">Consulting</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </li>
+        <li>Portfolio
+          <ul class="dropdown">
+            <li><a href="#">Recent Projects</a></li>
+            <li><a href="#">Case Studies</a></li>
+          </ul>
+        </li>
+        <li>Contact Us</li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="toggleNavMenu()"><i class="fa fa-bars"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>
